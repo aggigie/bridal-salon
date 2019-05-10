@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bridal_salon>
+  <designers>
+    <designer>
+      <name>Jola&amp;Fasola</name>
+      <collections>
+        <name>Koloryt</name>
+        <name>Kasjopea</name>
+        <name>Zakazany Las</name>
+      </collections>
+    </designer>
+    <designer>
+      <name>Annie Jantar</name>
+      <collections>
+        <name>Kamienny Potok</name>
+      </collections>
+    </designer>
+        <designer>
+      <name>Janina Daylily</name>
+      <collections>
+        <name>Night Sky</name>
+        <name>Daylily Fall</name>
+      </collections>
+    </designer>
+  </designers>
+  <collections>
+    <collection name="Night Sky" season="Lato" year="2019">
+      <designer_name>Janina Daylily</designer_name>
+      <description>Śliczne koronkowe sukienki w stylu Bohoo.</description>
+      <dresses>
+        <dress id="A1001" fabric="koronka">
+          <name>Chrysanthemum</name>
+          <silhouette>syrena</silhouette>
+          <neckline>litera V</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="A1002" fabric="koronka">
+          <name>Narcyza</name>
+          <silhouette>litera A</silhouette>
+          <neckline>serce</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="A1003" fabric="koronka">
+          <name>Elizabeth</name>
+          <silhouette>łódka</silhouette>
+          <neckline>kwadratowy</neckline>
+          <length>do ziemi</length>
+          <description>Sztandarowy model tej kolekcji.</description>
+        </dress>
+      </dresses>
+    </collection>
+    <collection name="Koloryt" year="2018">
+      <designer_name>Jola&amp;Fasola</designer_name>
+      <dresses>
+        <dress id="KO101" fabric="satyna">
+          <name>Kinga</name>
+          <silhouette>empire</silhouette>
+          <neckline>zabudowany</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="KO102" fabric="satyna">
+          <name>Flora</name>
+          <silhouette>princessa</silhouette>
+          <neckline>litera V</neckline>
+          <length>do ziemi</length>
+          <description>Model idealny dla pań o większym rozmiarze.</description>
+        </dress>
+      </dresses>
+    </collection>
+    <collection name="Kasjopea" season="Zima" year="2019">
+      <designer_name>Jola&amp;Fasola</designer_name>
+      <dresses>
+        <dress id="AC20" fabric="koronka">
+          <name>Konstancja</name>
+          <silhouette>syrena</silhouette>
+          <neckline>kwadratowy</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="AB10" fabric="szermeza">
+          <name>Jonquil</name>
+          <silhouette>litera A</silhouette>
+          <neckline>łódka</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="AD20" fabric="krepa">
+          <name>Anastasia</name>
+          <silhouette>princessa</silhouette>
+          <neckline>asymetryczny</neckline>
+          <description>Model dla odważnych pań, w ciemnym odcieniu bieli.</description>
+          <length>asymetryczna</length>
+        </dress>
+       <dress id="AZ10" fabric="jedwab">
+          <name>Rossana</name>
+          <silhouette>empire</silhouette>
+          <length>do ziemi</length>
+          <neckline>hiszpańsi</neckline>
+        </dress>
+        <dress id="AX30" fabric="jedwab">
+          <name>Kokomo</name>
+          <silhouette>princessa</silhouette>
+          <neckline>asymetryczny</neckline>
+          <length>mini</length>
+          <description>Model wysoko w trendzie.</description>
+        </dress>
+      </dresses>
+    </collection>
+    <collection name="Kamienny Potok" season="Wiosna" year="2020">
+      <designer_name>Annie Jantar</designer_name>
+      <dresses>
+        <dress id="ZZ1" fabric="żorżeta">
+          <name>Agness</name>
+          <silhouette>litera A</silhouette>
+          <neckline>litera V</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="ZZ2" fabric="żorżeta">
+          <name>Arctic</name>
+          <length>do ziemi</length>
+          <silhouette>princessa</silhouette>
+          <neckline>litera V</neckline>
+        </dress>
+        <dress id="ZZ3" fabric="żorżeta">
+          <name>Atticus</name>
+          <silhouette>empire</silhouette>
+          <neckline>litera V</neckline>
+          <length>tea</length>
+        </dress>
+       <dress id="ZZ4" fabric="żorżeta">
+          <name>Ametyst</name>
+          <silhouette>empire</silhouette>
+          <length>do ziemi</length>
+          <neckline>litera V</neckline>
+        </dress>
+        <dress id="ZZ5" fabric="żorżeta">
+          <name>Agresta</name>
+          <silhouette>empire</silhouette>
+          <neckline>serce</neckline>
+          <length>do ziemi</length>
+        </dress>
+        <dress id="ZZ6" fabric="żorżeta">
+          <name>Annie</name>
+          <silhouette>empire</silhouette>
+          <neckline>zabudowany</neckline>
+          <length>do ziemi</length>
+        </dress>
+      </dresses>
+    </collection>
+    <collection name="Daylily Fall" season="Lato" year="2017">
+      <designer_name>Janina Daylily</designer_name>
+      <description>Kolekcja sukien szyfonowych.</description>
+      <dresses>
+        <dress id="BVM" fabric="szyfon">
+          <name>Santorini</name>
+          <length>do ziemi</length>
+          <silhouette>princessa</silhouette>
+          <neckline>zabudowany</neckline>
+        </dress>
+        <dress id="BMV" fabric="szyfon">
+          <name>Sycylia</name>
+          <length>do ziemi</length>
+          <silhouette>syrena</silhouette>
+          <neckline>litera V</neckline>
+        </dress>
+        <dress id="MVB" fabric="szyfon">
+          <name>Summer Wine</name>
+          <silhouette>syrena</silhouette>
+          <neckline>litera V</neckline>
+          <description>Model z wystawy.</description>
+          <length>do ziemi</length>
+        </dress>
+      </dresses>
+    </collection>
+    <collection name="Zakazany Las" year="2019">
+      <designer_name>Jola&amp;Fasola</designer_name>
+      <dresses>
+        <dress id="Ax1" fabric="tiul">
+          <name>Mania</name>
+          <silhouette>syrena</silhouette>
+          <neckline>serce</neckline>
+          <length>mini</length>
+        </dress>
+        <dress id="Ax2" fabric="tiul">
+          <name>Diana</name>
+          <silhouette>syrena</silhouette>
+          <neckline>serce</neckline>
+          <length>mini</length>
+        </dress>
+      </dresses>
+    </collection>
+  </collections>
+</bridal_salon>
+
