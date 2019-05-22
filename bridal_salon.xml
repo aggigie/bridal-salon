@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
 <bridal_salon>
-  <designers>
-    <designer>
-      <name>Jola&amp;Fasola</name>
-      <collections>
-        <name>Koloryt</name>
-        <name>Kasjopea</name>
-        <name>Zakazany Las</name>
-      </collections>
-    </designer>
-    <designer>
-      <name>Annie Jantar</name>
-      <collections>
-        <name>Kamienny Potok</name>
-      </collections>
-    </designer>
-        <designer>
-      <name>Janina Daylily</name>
-      <collections>
-        <name>Night Sky</name>
-        <name>Daylily Fall</name>
-      </collections>
-    </designer>
-  </designers>
   <collections>
     <collection name="Night Sky" season="Lato" year="2019">
       <designer_name>Janina Daylily</designer_name>
@@ -145,7 +123,7 @@
         </dress>
       </dresses>
     </collection>
-    <collection name="Daylily Fall" season="Lato" year="2017">
+    <collection name="Daylily Fall" season="Jesien" year="2017">
       <designer_name>Janina Daylily</designer_name>
       <description>Kolekcja sukien szyfonowych.</description>
       <dresses>

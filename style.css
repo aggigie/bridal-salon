@@ -1,0 +1,74 @@
+﻿
+bridal_salon {
+    display: inline-block;
+    background: url('bg.png');
+    background-size: contain;
+    font-family: Helvetica
+}
+
+
+collections {
+    display: inline-block;
+    list-style-image: none;
+}
+
+collection > designer_name {
+    flex-basis: 80px;
+}
+
+collection::after {
+    content: url('default.png');
+    padding: 5px;
+}
+collection[season="Wiosna"]:hover::after {
+    content: url('spring.png');
+    padding: 5px;
+}
+collection[season="Lato"]:hover::after {
+    content: url('summer.png');
+    padding: 5px;
+}
+collection[season="Jesien"]:hover::after {
+    content: url('fall.png');
+    padding: 5px;
+}
+collection[season="Zima"]:hover::after {
+    content: url('winter.png');
+    padding: 5px;
+}
+
+collection {
+    content: attr(name);
+    background-color: snow;
+    border-color: deeppink;
+    border-style: double;
+    display: grid;
+    margin: 30px;
+}
+
+
+dresses {
+    display: inline-block;
+}
+dress {
+    background-color: snow;
+    border-color: ghostwhite;
+    border-style: double;
+    margin: 30px;
+    padding: 5px;
+    display: inline-grid;
+}
+
+
+
+silhouette:before {
+    content: "ksztalt: "
+}
+
+neckline:before {
+    content: "dekolt: "
+}
+
+length:before {
+    content: "dlugosc: "
+}
