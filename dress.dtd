@@ -1,0 +1,4 @@
+<!ENTITY % details SYSTEM "info.dtd">
+  %details;
+<!ATTLIST dress id ID #REQUIRED>
+<!ATTLIST dress fabric NMTOKEN #REQUIRED>

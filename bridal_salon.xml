@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bridal_salon SYSTEM "bridal_salon.dtd">
 <?xml-stylesheet type="text/css" href="style.css"?>
 <bridal_salon>
   <collections>
-    <collection name="Night Sky" season="Lato" year="2019">
+    <collection country="Italy" name="Night Sky" season="Lato" year="2019">
       <designer_name>Janina Daylily</designer_name>
       <description>Śliczne koronkowe sukienki w stylu Bohoo.</description>
       <dresses>
@@ -27,7 +28,7 @@
         </dress>
       </dresses>
     </collection>
-    <collection name="Koloryt" year="2018">
+    <collection country="Italy" name="Koloryt" year="2018">
       <designer_name>Jola&amp;Fasola</designer_name>
       <dresses>
         <dress id="KO101" fabric="satyna">
@@ -45,7 +46,7 @@
         </dress>
       </dresses>
     </collection>
-    <collection name="Kasjopea" season="Zima" year="2019">
+    <collection country="Italy" name="Kasjopea" season="Zima" year="2019">
       <designer_name>Jola&amp;Fasola</designer_name>
       <dresses>
         <dress id="AC20" fabric="koronka">
@@ -64,14 +65,14 @@
           <name>Anastasia</name>
           <silhouette>princessa</silhouette>
           <neckline>asymetryczny</neckline>
-          <description>Model dla odważnych pań, w ciemnym odcieniu bieli.</description>
           <length>asymetryczna</length>
+          <description>Model dla odważnych pań, w ciemnym odcieniu bieli.</description>
         </dress>
        <dress id="AZ10" fabric="jedwab">
           <name>Rossana</name>
           <silhouette>empire</silhouette>
-          <length>do ziemi</length>
           <neckline>hiszpańsi</neckline>
+	  <length>do ziemi</length>
         </dress>
         <dress id="AX30" fabric="jedwab">
           <name>Kokomo</name>
@@ -82,7 +83,7 @@
         </dress>
       </dresses>
     </collection>
-    <collection name="Kamienny Potok" season="Wiosna" year="2020">
+    <collection country="Italy" name="Kamienny Potok" season="Wiosna" year="2020">
       <designer_name>Annie Jantar</designer_name>
       <dresses>
         <dress id="ZZ1" fabric="żorżeta">
@@ -93,9 +94,9 @@
         </dress>
         <dress id="ZZ2" fabric="żorżeta">
           <name>Arctic</name>
-          <length>do ziemi</length>
           <silhouette>princessa</silhouette>
           <neckline>litera V</neckline>
+	  <length>do ziemi</length>
         </dress>
         <dress id="ZZ3" fabric="żorżeta">
           <name>Atticus</name>
@@ -106,8 +107,8 @@
        <dress id="ZZ4" fabric="żorżeta">
           <name>Ametyst</name>
           <silhouette>empire</silhouette>
-          <length>do ziemi</length>
           <neckline>litera V</neckline>
+	  <length>do ziemi</length>
         </dress>
         <dress id="ZZ5" fabric="żorżeta">
           <name>Agresta</name>
@@ -123,32 +124,32 @@
         </dress>
       </dresses>
     </collection>
-    <collection name="Daylily Fall" season="Jesien" year="2017">
+    <collection country="Italy" name="Daylily Fall" season="Jesien" year="2017">
       <designer_name>Janina Daylily</designer_name>
       <description>Kolekcja sukien szyfonowych.</description>
       <dresses>
         <dress id="BVM" fabric="szyfon">
           <name>Santorini</name>
-          <length>do ziemi</length>
           <silhouette>princessa</silhouette>
           <neckline>zabudowany</neckline>
+	  <length>do ziemi</length>
         </dress>
         <dress id="BMV" fabric="szyfon">
           <name>Sycylia</name>
-          <length>do ziemi</length>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
+	  <length>do ziemi</length>
         </dress>
         <dress id="MVB" fabric="szyfon">
           <name>Summer Wine</name>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
-          <description>Model z wystawy.</description>
           <length>do ziemi</length>
+	  <description>Model z wystawy.</description>
         </dress>
       </dresses>
     </collection>
-    <collection name="Zakazany Las" year="2019">
+    <collection country="Italy" name="Zakazany Las"   year="2019">
       <designer_name>Jola&amp;Fasola</designer_name>
       <dresses>
         <dress id="Ax1" fabric="tiul">

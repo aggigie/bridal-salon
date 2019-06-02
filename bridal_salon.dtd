@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ENTITY % dress SYSTEM "dress.dtd">
+<!ELEMENT bridal_salon (collections)>
+<!ELEMENT collections (collection*)>
+<!ELEMENT collection (designer_name, description?, dresses)>
+<!ELEMENT dresses (dress+)>
+  %dress;
+<!ELEMENT designer_name (#PCDATA)>
+<!ATTLIST collection name CDATA #REQUIRED>
+<!ATTLIST collection season (Wiosna|Lato|Jesien|Zima|nieokreslono) "nieokreslono">
+<!ATTLIST collection country NMTOKEN #FIXED "Italy">
+<!ATTLIST collection year CDATA #IMPLIED>

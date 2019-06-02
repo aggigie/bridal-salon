@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ENTITY % extended "INCLUDE">
+<!ENTITY % basic "IGNORE">
+
+<![%basic; [
+  <!ENTITY % elements "name, descripton?">
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+]]>
+  
+<![%extended; [
+  <!ENTITY % elements "name, silhouette, neckline, length, description?">
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT silhouette (#PCDATA)>
+  <!ELEMENT neckline (#PCDATA)>
+  <!ELEMENT length (#PCDATA)>
+]]>
+
+<!ELEMENT dress (%elements;)>
