@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE bridal_salon SYSTEM "bridal_salon.dtd">
 <?xml-stylesheet type="text/css" href="style.css"?>
-<bridal_salon>
+<bridal_salon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bridal_salon.xsd">
   <collections>
     <collection country="Italy" name="Night Sky" season="Lato" year="2019">
       <designer_name>Janina Daylily</designer_name>

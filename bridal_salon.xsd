@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="bridal_salon">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="collections" minOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="collection" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="designer_name" type="xsd:string" />
+                    <xsd:element name="description" type="xsd:string" minOccurs="0"/>
+                    <xsd:element name="dresses">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="dress" maxOccurs="unbounded">
+                            <xsd:complexType>
+                              <xsd:all>
+                                <xsd:element name="name" type="xsd:string"/>
+                                <xsd:element name="length" type="xsd:string"/>
+                                <xsd:element name="silhouette" type="xsd:string"/>
+                                <xsd:element name="neckline" type="xsd:string"/>
+                                <xsd:element name="description" type="xsd:string" minOccurs="0"/>
+                              </xsd:all>
+                              <xsd:attributeGroup ref="suknie"/>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attributeGroup ref="kolekcja"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+         </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:key name="kluczId">
+      <xsd:selector xpath="collections/collection/dresses/dress"/>
+      <xsd:field xpath="@id"/>
+    </xsd:key>
+  </xsd:element>
+
+  <xsd:simpleType name="nazwa">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="([A-Z][a-zA-Z ]*)"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:attributeGroup name="kolekcja">
+    <xsd:attribute name="country" type="nazwa" fixed="Italy"/>
+    <xsd:attribute name="name" type="nazwa" use="required"/>
+    <xsd:attribute name="season" default="nieokreslono">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="nieokreslono"/>
+          <xsd:enumeration value="Lato"/>
+          <xsd:enumeration value="Jesien"/>
+          <xsd:enumeration value="Wiosna"/>
+          <xsd:enumeration value="Zima"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+    <xsd:attribute name="year" use="optional">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:unsignedInt">
+          <xsd:totalDigits value="4"/>
+          <xsd:maxInclusive value="2030"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  
+  <xsd:attributeGroup name="suknie">
+    <xsd:attribute name="id" use="required">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:pattern value="([A-Z][a-zA-Z0-9]*[0-9])"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+    <xsd:attribute name="fabric" use="required">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="jedwab"/>
+          <xsd:enumeration value="koronka"/>
+          <xsd:enumeration value="satyna"/>
+          <xsd:enumeration value="tiul"/>
+          <xsd:enumeration value="szermeza"/>
+          <xsd:enumeration value="krepa"/>
+          <xsd:enumeration value="żorżeta"/>
+          <xsd:enumeration value="szyfon"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:attributeGroup>
+  
+</xsd:schema>
