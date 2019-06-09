@@ -128,19 +128,19 @@
       <designer_name>Janina Daylily</designer_name>
       <description>Kolekcja sukien szyfonowych.</description>
       <dresses>
-        <dress id="BVM" fabric="szyfon">
+        <dress id="BVM1" fabric="szyfon">
           <name>Santorini</name>
           <silhouette>princessa</silhouette>
           <neckline>zabudowany</neckline>
 	  <length>do ziemi</length>
         </dress>
-        <dress id="BMV" fabric="szyfon">
+        <dress id="BMV1" fabric="szyfon">
           <name>Sycylia</name>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
 	  <length>do ziemi</length>
         </dress>
-        <dress id="MVB" fabric="szyfon">
+        <dress id="MVB1" fabric="szyfon">
           <name>Summer Wine</name>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
