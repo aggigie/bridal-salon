@@ -14,31 +14,47 @@ collections {
 
 collection > designer_name {
     flex-basis: 80px;
+    text-align: center;
 }
 
-collection::after {
+collection::before {
     content: url('default.png');
-    padding: 5px;
-}
-collection[season="Wiosna"]:hover::after {
-    content: url('spring.png');
-    padding: 5px;
-}
-collection[season="Lato"]:hover::after {
-    content: url('summer.png');
-    padding: 5px;
-}
-collection[season="Jesien"]:hover::after {
-    content: url('fall.png');
-    padding: 5px;
-}
-collection[season="Zima"]:hover::after {
-    content: url('winter.png');
-    padding: 5px;
+    padding: 20px;
+    text-align: center;
 }
 
-collection {
+collection[season="Wiosna"]:hover::before {
+    content: url('spring.png');
+    padding: 20px;
+    text-align: center;
+}
+
+collection[season="Lato"]:hover::before {
+    content: url('summer.png');
+    padding: 20px;
+    text-align: center;
+}
+
+collection[season="Jesien"]:hover::before {
+    content: url('fall.png');
+    padding: 20px;
+    text-align: center;
+}
+
+collection[season="Zima"]:hover::before {
+    content: url('winter.png');
+    padding: 20px;
+    text-align: center;
+}
+
+
+[name]:after {
+    padding: 15px;
     content: attr(name);
+}
+
+    collection{
+    text-decoration-color: aqua;
     background-color: snow;
     border-color: deeppink;
     border-style: double;
@@ -46,29 +62,51 @@ collection {
     margin: 30px;
 }
 
+description {
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
 
 dresses {
     display: inline-block;
-}
-dress {
-    background-color: snow;
-    border-color: ghostwhite;
-    border-style: double;
-    margin: 30px;
-    padding: 5px;
-    display: inline-grid;
+    text-align: center;
 }
 
+dress {
+    background-color: snow;
+    border-color: #1e0015;
+    border-style: solid;
+    margin: 30px;
+    padding: 20px;
+    display: inline-grid;
+    border-radius: 50px 15px;
+    text-align: center;
+}
+
+
+name {
+    color: #6e0b48;
+    text-shadow: 2px 2px 4px #9d5ec2;
+    padding: 5px;
+    text-align: center;
+}
 
 
 silhouette:before {
-    content: "ksztalt: "
+    padding: 5px;
+    content: "ksztalt: ";
+    text-transform: uppercase;
 }
 
 neckline:before {
-    content: "dekolt: "
+    content: "dekolt: ";
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 length:before {
-    content: "dlugosc: "
+    content: "dlugosc: ";
+    padding: 5px;
+    text-transform: uppercase;
 }
