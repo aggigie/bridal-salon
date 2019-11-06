@@ -35,7 +35,7 @@
               </xsd:element>
             </xsd:sequence>
           </xsd:complexType>
-         </xsd:element>
+        </xsd:element>
       </xsd:sequence>
     </xsd:complexType>
     <xsd:key name="kluczId">
@@ -73,7 +73,7 @@
       </xsd:simpleType>
     </xsd:attribute>
   </xsd:attributeGroup>
-  
+
   <xsd:attributeGroup name="suknie">
     <xsd:attribute name="id" use="required">
       <xsd:simpleType>
@@ -97,5 +97,5 @@
       </xsd:simpleType>
     </xsd:attribute>
   </xsd:attributeGroup>
-  
+
 </xsd:schema>

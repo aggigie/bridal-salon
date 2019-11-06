@@ -1,18 +1,16 @@
-﻿
-bridal_salon {
+﻿bridal_salon {
     display: inline-block;
     background: url('bg.png');
     background-size: contain;
     font-family: Helvetica
 }
 
-
 collections {
     display: inline-block;
     list-style-image: none;
 }
 
-collection > designer_name {
+collection>designer_name {
     flex-basis: 80px;
     text-align: center;
 }
@@ -47,13 +45,12 @@ collection[season="Zima"]:hover::before {
     text-align: center;
 }
 
-
 [name]:after {
     padding: 15px;
     content: attr(name);
 }
 
-    collection{
+collection {
     text-decoration-color: aqua;
     background-color: snow;
     border-color: deeppink;
@@ -84,14 +81,12 @@ dress {
     text-align: center;
 }
 
-
 name {
     color: #6e0b48;
     text-shadow: 2px 2px 4px #9d5ec2;
     padding: 5px;
     text-align: center;
 }
-
 
 silhouette:before {
     padding: 5px;

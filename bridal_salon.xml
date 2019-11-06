@@ -68,11 +68,11 @@
           <length>asymetryczna</length>
           <description>Model dla odważnych pań, w ciemnym odcieniu bieli.</description>
         </dress>
-       <dress id="AZ10" fabric="jedwab">
+        <dress id="AZ10" fabric="jedwab">
           <name>Rossana</name>
           <silhouette>empire</silhouette>
           <neckline>hiszpańsi</neckline>
-	  <length>do ziemi</length>
+          <length>do ziemi</length>
         </dress>
         <dress id="AX30" fabric="jedwab">
           <name>Kokomo</name>
@@ -96,7 +96,7 @@
           <name>Arctic</name>
           <silhouette>princessa</silhouette>
           <neckline>litera V</neckline>
-	  <length>do ziemi</length>
+          <length>do ziemi</length>
         </dress>
         <dress id="ZZ3" fabric="żorżeta">
           <name>Atticus</name>
@@ -104,11 +104,11 @@
           <neckline>litera V</neckline>
           <length>tea</length>
         </dress>
-       <dress id="ZZ4" fabric="żorżeta">
+        <dress id="ZZ4" fabric="żorżeta">
           <name>Ametyst</name>
           <silhouette>empire</silhouette>
           <neckline>litera V</neckline>
-	  <length>do ziemi</length>
+          <length>do ziemi</length>
         </dress>
         <dress id="ZZ5" fabric="żorżeta">
           <name>Agresta</name>
@@ -132,24 +132,24 @@
           <name>Santorini</name>
           <silhouette>princessa</silhouette>
           <neckline>zabudowany</neckline>
-	  <length>do ziemi</length>
+          <length>do ziemi</length>
         </dress>
         <dress id="BMV1" fabric="szyfon">
           <name>Sycylia</name>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
-	  <length>do ziemi</length>
+          <length>do ziemi</length>
         </dress>
         <dress id="MVB1" fabric="szyfon">
           <name>Summer Wine</name>
           <silhouette>syrena</silhouette>
           <neckline>litera V</neckline>
           <length>do ziemi</length>
-	  <description>Model z wystawy.</description>
+          <description>Model z wystawy.</description>
         </dress>
       </dresses>
     </collection>
-    <collection country="Italy" name="Zakazany Las"   year="2019">
+    <collection country="Italy" name="Zakazany Las" year="2019">
       <designer_name>Jola&amp;Fasola</designer_name>
       <dresses>
         <dress id="Ax1" fabric="tiul">
